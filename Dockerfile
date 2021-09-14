@@ -7,6 +7,33 @@ RUN apt-get -qqy update \
     && apt-get -qqy --no-install-recommends install \
         sudo \
         supervisor \
+        dbus-x11 \
+        nautilus \
+        gedit \
+        expect \
+        sudo \
+        vim \
+	    vlc \
+        bash \
+        net-tools \
+        novnc \
+        xfce4 \
+	    socat \
+        x11vnc \
+	    xvfb \
+        supervisor \
+        curl \
+        git \
+	    pulseaudio \
+        wget \
+        g++ \
+	    unzip \
+        ssh \
+	    ffmpeg \
+	    chromium-browser \
+	    firefox \
+        terminator \
+        htop \
         xvfb x11vnc novnc websockify \
     && apt-get autoclean \
     && apt-get autoremove \
