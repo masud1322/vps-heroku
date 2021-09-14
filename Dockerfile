@@ -13,27 +13,28 @@ RUN apt-get -qqy update \
         expect \
         sudo \
         vim \
-	    vlc \
+	vlc \
         bash \
         net-tools \
         novnc \
         xfce4 \
-	    socat \
+	socat \
         x11vnc \
-	    xvfb \
+	xvfb \
         supervisor \
         curl \
         git \
-	    pulseaudio \
+	pulseaudio \
         wget \
         g++ \
-	    unzip \
+	unzip \
         ssh \
-	    ffmpeg \
-	    chromium-browser \
-	    firefox \
+	ffmpeg \
+	chromium-browser \
+	firefox \
         terminator \
         htop \
+	qbittorrent \
         xvfb x11vnc novnc websockify \
     && apt-get autoclean \
     && apt-get autoremove \
